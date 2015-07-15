@@ -1,29 +1,30 @@
 <?php
-/**
- +------------------------------------------------------------------------------
- *
- * ePHP is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+/*
+/------------------------------------------------------------------------------
+/
+/ ePHP is free software: you can redistribute it and/or modify
+/ it under the terms of the GNU Lesser General Public License as published by
+/ the Free Software Foundation, either version 3 of the License, or
+/ (at your option) any later version.
 
- * ePHP is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with ePHP.  If not, see <http://www.gnu.org/licenses/>.
- +------------------------------------------------------------------------------
- * @version  4.2
- * @author   WangXian
- * @package  ePHP
- * @link	 http://github.com/wangxian/ePHP/
- * @E-mail   wo#wangxian.me
- * @creation date 2010-10-17 18:09:17
- * @modified date 2015-07-15 08:50:00
- +------------------------------------------------------------------------------
- */
+/ ePHP is distributed in the hope that it will be useful,
+/ but WITHOUT ANY WARRANTY; without even the implied warranty of
+/ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+/ GNU Lesser General Public License for more details.
+/
+/ You should have received a copy of the GNU Lesser General Public License
+/ along with ePHP.  If not, see <http://www.gnu.org/licenses/>.
+/
+/------------------------------------------------------------------------------
+/ @version  4.2
+/ @author   WangXian
+/ @package  ePHP
+/ @link	 http://github.com/wangxian/ePHP/
+/ @E-mail   wo#wangxian.me
+/ @creation date 2010-10-17 18:09:17
+/ @modified date 2015-07-15 08:50:00
+/------------------------------------------------------------------------------
+*/
 
 header('Content-Type:text/html; charset=UTF-8');
 
