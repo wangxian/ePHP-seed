@@ -26,7 +26,32 @@
 /------------------------------------------------------------------------------
 */
 
-header('Content-Type:text/html; charset=UTF-8');
+// 判断当前的运行环境
+switch ($_SERVER['SERVER_NAME'])
+{
+    // 本地环境，域名列表
+    case 'localhost':
+    case 'seed.ephp.io':
+        $run_env = 'local';
+        break;
+
+    // 开发环境，域名列表
+    case 'api.dev.domain.com':
+        $run_env = 'dev';
+        break;
+
+    // 预上线，域名列表
+    case 'api.pre.domain.com':
+        $run_env = 'pre';
+        break;
+
+    // 正式环境，默认
+    default:
+        $run_env = 'prod';
+        break;
+}
+// 运行环境
+define('RUN_ENV', $run_env);
 
 // 时区设置。 建议在php.ini设置，如果虚拟主机的时区设置不对，可取消注释。
 // date_default_timezone_set("PRC");
@@ -35,7 +60,7 @@ header('Content-Type:text/html; charset=UTF-8');
 define("APP_PATH", realpath('../app'));
 
 // framework路径
-define('FW_PATH', '../ePHP/ePHP');
+define('FW_PATH', '../ePHP');
 
 // 加载框架入口
 include FW_PATH . '/ePHP.php';
