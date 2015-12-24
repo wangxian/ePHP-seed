@@ -1,8 +1,11 @@
 # ePHP-seed
 Quick start ePHP project.
 
-quick start development server(PHP CLI)
-
-```sh
-php -S localhost:8000 -t public/
 ```
+$ git clone https://github.com/wangxian/ePHP-seed.git your-project-name
+$ cd your-project-name
+$ git submodule init
+$ git submodule update
+$ ./run.sh
+```
+
