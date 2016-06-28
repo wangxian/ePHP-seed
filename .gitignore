@@ -1,3 +1,13 @@
+# Global
+*~
+.DS_Store
+.svn
+.idea
+*.log
+*.pyc
+*.map
+.tags*
+
 # Logs
 logs
 *.log
